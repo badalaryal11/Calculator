@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var displayLabel: UILabel!
     
-    var isFinishedTypingNumber: Bool = true
+    private var isFinishedTypingNumber: Bool = true
     
     
     

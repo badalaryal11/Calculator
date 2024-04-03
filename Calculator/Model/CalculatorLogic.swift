@@ -22,6 +22,7 @@ struct CalculatorLogic {
         
         if let n = number {
             switch symbol  {
+            
             case "+/-":
                 return n * -1
             
@@ -49,6 +50,7 @@ struct CalculatorLogic {
            let operation = intermediateCalculation?.calcMethod {
             
             switch operation {
+                
             case "+":
                 return n1 + n2
                 
